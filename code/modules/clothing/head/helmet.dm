@@ -238,3 +238,15 @@
 	flags_inv = BLOCKHAIR
 	body_parts_covered = 0
 	siemens_coefficient = 0.9
+
+/obj/item/clothing/head/helmet/riot/eod
+	name = "\improper EOD helmet"
+	desc = "A helmet commonly used by EODs when they can't wear their bigger, sturdier suit."
+	icon_state = "helmet_eod"
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT
+		)

@@ -129,9 +129,9 @@
 /obj/structure/closet/bombcloset/WillContain()
 	return list(
 		/obj/item/clothing/suit/bomb_suit,
-		/obj/item/clothing/under/color/black,
-		/obj/item/clothing/shoes/black,
-		/obj/item/clothing/head/bomb_hood)
+		/obj/item/clothing/head/bomb_hood,
+		/obj/item/clothing/suit/armor/pcarrier/green/eod,
+		/obj/item/clothing/head/helmet/riot/eod)
 
 
 /obj/structure/closet/bombclosetsecurity
@@ -142,9 +142,9 @@
 /obj/structure/closet/bombclosetsecurity/WillContain()
 	return list(
 		/obj/item/clothing/suit/bomb_suit/security,
-		/obj/item/clothing/under/rank/security,
-		/obj/item/clothing/shoes/brown,
-		/obj/item/clothing/head/bomb_hood/security)
+		/obj/item/clothing/head/bomb_hood/security,
+		/obj/item/clothing/suit/armor/pcarrier/green/eod,
+		/obj/item/clothing/head/helmet/riot/eod)
 
 /*
  * Hydrant

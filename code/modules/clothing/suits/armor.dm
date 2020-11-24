@@ -319,6 +319,9 @@
 /obj/item/clothing/suit/armor/pcarrier/merc
 	starting_accessories = list(/obj/item/clothing/accessory/armorplate/merc, /obj/item/clothing/accessory/armguards/merc, /obj/item/clothing/accessory/legguards/merc, /obj/item/clothing/accessory/storage/pouches/large)
 
+/obj/item/clothing/suit/armor/pcarrier/green/eod
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate/eod, /obj/item/clothing/accessory/armguards/eod, /obj/item/clothing/accessory/legguards/eod, /obj/item/clothing/accessory/storage/pouches/green, /obj/item/clothing/accessory/armor/tag/eod)
+
 //Modular specialty armor
 /obj/item/clothing/suit/armor/riot
 	name = "riot vest"

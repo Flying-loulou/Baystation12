@@ -130,6 +130,18 @@
 		)
 	slowdown = 0.5
 
+/obj/item/clothing/accessory/armorplate/eod
+	name = "\improper EOD armor plate"
+	desc = "A plasteel-reinforced, padded armor plate, specifically designed to provide protection against explosions. Attaches to a plate carrier."
+	icon_state = "armor_eod"
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT
+		)
+
 //Arm guards
 /obj/item/clothing/accessory/armguards
 	name = "arm guards"
@@ -217,6 +229,18 @@
 		bomb = ARMOR_BOMB_PADDED
 		)
 	siemens_coefficient = 0
+
+/obj/item/clothing/accessory/armguards/eod
+	name = "\improper EOD arm guards"
+	desc = "A pair of green arm pads with heavy shielding to protect against explosions. Attaches to a plate carrier."
+	icon_state = "armguards_green"
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT
+		)
 
 //Leg guards
 /obj/item/clothing/accessory/legguards
@@ -309,6 +333,18 @@
 	siemens_coefficient = 0
 	slowdown = 1
 
+/obj/item/clothing/accessory/legguards/eod
+	name = "\improper EOD leg guards"
+	desc = "A pair of green armored leg pads with heavy shielding to protect against explosions. Attaches to a plate carrier."
+	icon_state = "legguards_green"
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT
+		)
+
 
 //Decorative attachments
 /obj/item/clothing/accessory/armor/tag
@@ -341,6 +377,11 @@
 	desc = "A tag with the word PRESS printed in white lettering on it."
 	icon_state = "presstag"
 	slot_flags = SLOT_BELT
+
+/obj/item/clothing/accessory/armor/tag/eod
+	name = "\improper EOD tag"
+	desc = "An armor tag with the words EXPLOSIVE ORDONANCE DISPSOSAL printed in low-profile gray lettering on it."
+	icon_state = "eodtag"
 
 /obj/item/clothing/accessory/armor/tag/opos
 	name = "\improper O+ blood patch"
